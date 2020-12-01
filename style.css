@@ -19,8 +19,17 @@ body {
 	background-color: rgba(34, 69, 224, 0.7740);
 }
 
+
 .titulo-principal, .contenedor-menu {
 	width: 50%;
+}
+.footer{
+    height: 200px;
+    background-color: darkblue;
+    bottom: 0px;
+    /* position: fixed; */
+    /* width: 1200px; */
+
 }
 
 .menu-principal {
@@ -30,10 +39,27 @@ body {
 	justify-content: space-evenly;
 	color: #000000;
 }
+
 .menu-principal_item > a {
 	text-decoration: none;
 	color: black;
 	font-family: sans-serif;
+}
+.lin-2{
+    background-color: lightgray;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.col-3{
+    width: 33.08%;
+    height: 470px;
+    background-color: aquamarine;
+    display: inline-block;
+    padding: -15px;
+    margin-top: 5px;
+    text-align: center;
+
 }
 .menu-principal_item > a:hover {
 	font-size: 28px;

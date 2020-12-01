@@ -73,8 +73,14 @@ body{
 }
 
 .section-1{
+    width: 1194px;
     height: 500px;
-    background-color: rebeccapurple;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(168, 203, 243);
+    border-style: solid;
+    border-color: #181a8b;
+    border-radius: 0%;
 
 }
 
@@ -102,16 +108,18 @@ body{
     background: white;
     font-weight: bold;
     text-align: center;
+    color: #181a8b;
 }
 
 .col-3{
-    width: 33.08%;
-    height: 470px;
-    background-color: aquamarine;
     display: inline-block;
-    padding: -15px;
-    margin-top: 5px;
+    width: 33%;
+    height: 470px;
+    background-color: rgb(185, 197, 230);
+    padding: 0;
+    margin-top: 0;
     text-align: center;
+    vertical-align: middle
 }
 .col-5{
     width: 19%;
@@ -124,6 +132,7 @@ body{
 
 .service-content{
     padding: 0.5em 0;
+    color: #181a8b;
 }
 .service-text{
     padding: 10px;
